@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+  margin-left: 20px;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.banner {
+  background-color: #ffe8cc;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+
+.produtos {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produto {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.produto h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.produto p {
+  color: #008000;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}
